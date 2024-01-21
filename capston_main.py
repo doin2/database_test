@@ -59,9 +59,9 @@ geo_json = 'https://raw.githubusercontent.com/vuski/admdongkor/master/ver2022100
 
 # 파일 업로드 후 
 # data_h1 = pd.read_csv(f'C:\\Users\\82105\\Desktop\\2023_05_26_capstone_1\\{select_year}_{select_area_text}_완료.csv')
-data_h1 = pd.read_csv(f'정제 완료 데이터\\{select_year}완료지역.csv')
+data_h1 = pd.read_csv(f'\\정제 완료 데이터\\{select_year}완료지역.csv')
 
-data_h2 = pd.read_csv(f'정제 완료 데이터\\{select_year}완료지역.csv')
+data_h2 = pd.read_csv(f'\\정제 완료 데이터\\{select_year}완료지역.csv')
 
 select_area_chosen = data_h1[data_h1['지역'] == select_area]
 
